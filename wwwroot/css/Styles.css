@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  #E4DBCC;
+}
+
+#header{
+    background-color: #5A8800;
+}
+
+#MenuHeader,#ContactHeader,#footer{
+    background-color: #8E4803;
+}
+
+#BlackBG{
+    background-color: rgba(0,0,0,0.6);
+}
+
+#FormBox{
+    background-color: white;
+    border-radius: 15px;
+}
+
+#BlackBG img{
+    width: 608px;
+    height: 454px;
+}
+
+#ImgItems img{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+}
+
+#DishIMG{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+#Appetizer,#Main_Dish,#Dessert,#Drinks{
+    height: 500px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-color: rgba(0,0,0,0.2);
+    background-blend-mode: overlay;*/
+    box-shadow: inset 0 0 30px 20px rgba(0,0,0,0.5);
+}
+#Appetizer h5,#Main_Dish h5,#Dessert h5,#Drinks h5{
+    text-shadow: 0px 0px 12px #000000;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+#Appetizer {
+    background-image: url(../images/Atchara.jpg);
+}
+#Main_Dish {
+    background-image: url(../images/Adobo.jpg);
+}
+#Dessert {
+    background-image: url(../images/Halohalo.jpg);
+}
+#Drinks {
+    background-image: url(../images/BukoJuice.jpg);
+}
+#Menu{
+    background-color: #B08330;
+}

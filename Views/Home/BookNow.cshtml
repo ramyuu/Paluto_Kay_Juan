@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Book Now";
+    Layout = "_Layout";
+    string[] MenuItems = new string[] {"Id","Category","DishName","AmtPerOrder","Price","Picture"};
+}
+
+<div class="container">
+
+    <div class="row">
+
+        @{
+            foreach(var header in MenuItems)
+            {
+                <div class="col text-center fw-bold">@header</div>
+            }
+        }
+
+    </div>
+
+    @{
+        if(Model != null)
+        {
+            foreach(var Data in Model)
+            {
+                <div class="row text-center">
+                    <div class="col">@Data.Id</div>
+                    <div class="col">@Data.Category</div>
+                    <div class="col">@Data.DishName</div>
+                    <div class="col">@Data.AmtPerOrder</div>
+                    <div class="col">@Data.Price</div>
+                    <div class="col">@Data.Picture</div>
+                </div>
+            }
+        }
+    }
+
+
+</div>

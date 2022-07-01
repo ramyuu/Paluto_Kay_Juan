@@ -1,0 +1,73 @@
+﻿@{
+    ViewData["Title"] = "Contact Us";
+    Layout = "_Layout";
+}
+<html>
+
+    <body>
+        <div class="d-flex flex-column min-vh-100">
+                            <!-- MENU HEADER START-->
+        <div class="d-flex my-4 " id="ContactHeader">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col" id="ContactText">
+                        <h1 class="text-light fw-bold"><i>CONTACT US</i></h1>
+                    </div>
+                    <div class="col" id="spacer"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- CONTACT US BODY START -->
+        <div class="container my-3">
+            <div class="row mt-2 mb-5 py-4">
+                <div class="col">
+                <h1 class="fw-bold my-5">CONTACT DETAILS</h1>
+                <p class="my-5">You can always reach us via the following contact details.
+                <br>We'll try our best to reach you as soon as possible.</p>
+                    <div class="row my-5">
+                    <div class="col-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                        </svg>
+                    </div>
+                    <div class="col"><h5 class="text-muted">0912-345-6789, (123) 456-7890</h5></div>
+                    </div>
+                    <div class="row my-5">
+                    <div class="col-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                        </svg>
+                    </div>
+                    <div class="col"><h5 class="text-muted">email@address.com</h5></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3" id="FormBox">
+                        <form>
+                            <div class="form-group my-3">
+                                <label for="Name" class="fw-bold mb-1">Name</label>
+                                <input type="text" class="form-control" id="userName" aria-describedby="emailHelp" placeholder="Juan Dela Cruz">
+                            </div>
+                            <div class="form-group my-3">
+                                <label for="Email" class="fw-bold mb-1">Password</label>
+                                <input type="email" class="form-control" id="userEmail" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group my-3">
+                                <label for="Message" class="fw-bold mb-1">Your Message</label>
+                                <textarea class="form-control" id="userMessage" rows="7" style="resize: none"></textarea>
+                            </div>
+                            <div class="form-group d-flex my-3 justify-content-end">
+                                <button type="submit" class="btn btn-success">Send Message</button>
+                            </div>                    
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        </div>
+    </body>
+</html>
