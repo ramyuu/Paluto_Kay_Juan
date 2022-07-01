@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Login";
+    Layout = "_LoginLayout";
+}
+
+<div class="center-screen">
+    <div>
+        <form>
+            <div class="row">
+                <div class=col-12>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="userName" placeholder="Username">
+                        <label for="userName">Username</label>
+                    </div>
+                </div>
+                <div class=col-12>
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="passWord" placeholder="Password">
+                        <label for="passWord">Password</label>
+                    </div>
+                </div>
+                <div class=col-6>
+                    <a href="#" onclick="location.href = document.referrer; return false;" class="w-100 btn btn-lg btn-danger">Cancel</a>
+                </div>
+                <div class=col-6>
+                    <button class="w-100 btn btn-lg btn-success">Sign in</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
