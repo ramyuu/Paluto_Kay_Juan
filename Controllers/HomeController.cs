@@ -1,22 +1,18 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
 using Paluto_Kay_Juan.Data;
 using Paluto_Kay_Juan.Models;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Paluto_Kay_Juan.Controllers
 {
     public class HomeController : Controller
     {
-
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly AppDbContext _context;
+        public HomeController(AppDbContext context, ILogger<HomeController> logger)
         {
+            _context = context;
             _logger = logger;
         }
 
@@ -27,21 +23,15 @@ namespace Paluto_Kay_Juan.Controllers
 
         public IActionResult Menu()
         {
-            return View();
+            List<AdminModel> adminModels;
+            adminModels = _context.Menus.ToList();
+            return View(adminModels);
         }
         public IActionResult BookNow()
         {
-            List<MenuItemsClass> ItemsMenu = new List<MenuItemsClass>();
-            FoodItems foodItems = new FoodItems();
-            ItemsMenu = foodItems.FetchAll();
-            return View("BookNow",ItemsMenu);
-        }
-
-        public ActionResult Details(int id)
-        {
-            FoodItems foodItems = new FoodItems();
-            MenuItemsClass ItemMenu = foodItems.FetchOne(id);
-            return View("Details", ItemMenu);
+            List<AdminModel> adminModels;
+            adminModels = _context.Menus.ToList();
+            return View(adminModels);
         }
         public IActionResult ContactUs()
         {

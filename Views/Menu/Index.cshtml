@@ -1,0 +1,83 @@
+﻿@model IEnumerable<Paluto_Kay_Juan.Models.AdminModel>
+
+@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col">
+        <h1>Menu</h1>
+    </div>
+    <div class="col" name="spacer"></div>
+    <div class="col text-end mt-2">
+        <a asp-action="Create" class="btn btn-success">Add Dish</a>
+    </div>
+</div>
+
+<table class="table table-bordered border-dark text-center">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                <a asp-action="Index" class="text-light text-decoration-none" asp-route-sortOrder="@ViewData["IDSortParam"]">
+                @Html.DisplayNameFor(model => model.Id)
+                </a>
+            </th>
+            <th>
+                Image
+            </th>
+            <th>
+                <a asp-action="Index" class="text-light text-decoration-none" asp-route-sortOrder="@ViewData["NameSortParam"]">
+                @Html.DisplayNameFor(model => model.DishName)
+                </a>
+            </th>
+            <th>
+                <a asp-action="Index" class="text-light text-decoration-none" asp-route-sortOrder="@ViewData["CategorySortParam"]">
+                @Html.DisplayNameFor(model => model.DishCategory)
+                </a>
+            </th>
+            <th>
+                <a asp-action="Index" class="text-light text-decoration-none" asp-route-sortOrder="@ViewData["AmtSortParam"]">
+                @Html.DisplayNameFor(model => model.AmtPerOrder)
+                </a>
+            </th>
+            <th>
+                <a asp-action="Index" class="text-light text-decoration-none" asp-route-sortOrder="@ViewData["PriceSortParam"]">
+                @Html.DisplayNameFor(model => model.Price)
+                </a>
+            </th>
+            <th>
+                Controls
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td class="align-middle">
+                @item.Id
+            </td>
+            <td class="align-middle">
+                <img src="~/images/@item.FoodImgUrl" style="width:100px;height:100px"/>
+            </td>
+            <td class="align-middle">
+                @Html.DisplayFor(modelItem => item.DishName)
+            </td>
+            <td class="align-middle">
+                @Html.DisplayFor(modelItem => item.DishCategory)
+            </td>
+            <td class="align-middle">
+                @Html.DisplayFor(modelItem => item.AmtPerOrder)
+            </td>
+            <td class="align-middle">
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td class="align-middle">
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-success">Edit</a>
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-secondary">Details</a>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

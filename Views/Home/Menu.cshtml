@@ -1,6 +1,8 @@
-﻿@{
+﻿@model IEnumerable<Paluto_Kay_Juan.Models.AdminModel>
+
+@{
     ViewData["Title"] = "Menu";
-    Layout = "_Layout";
+    Layout = "_MainLayout";
 }
 
 <html>
@@ -26,69 +28,25 @@
                 <div class="col align-self-center" id="spacer"><hr class="border border-2 border-dark" style="opacity: 1"></div>
             </div>
             <div class="row">
-                <div class="col-4 text-center">
-                    <img src="#" class="img-fluid border border-1 border-dark" id="DishIMG">
-                    <div class="text-center mt-2" id="NameDesc">
-                        <h5 class="fw-bold">Name</h5>
-                        <p>X Order is good for X persons.</p>
+                @foreach(var MDish in Model)
+                {
+                    @if (MDish.DishCategory=="Main")
+                    {
+                     <div class="col-3 p-1 mx-0 text-center">
+                        <img src="~/images/@MDish.FoodImgUrl" 
+                            class="img-fluid border border-1 border-dark" id="DishIMG"/>
+                        <div class="text-center bg-dark text-light" id="NameDesc">
+                            <h5 class="fw-bold py-2
+                            border border-left border-right border-bottom border-1 border-dark">
+                                @Html.DisplayFor(modelMDish => MDish.DishName)<br>
+                                Good for
+                                @Html.DisplayFor(modelMDish => MDish.AmtPerOrder)
+                                person per order
+                            </h5>
+                        </div>
                     </div>
-                </div>
-                <div class="col-4 text-center">
-                    <img src="#" class="img-fluid border border-1 border-dark" id="DishIMG">
-                    <div class="text-center mt-2" id="NameDesc">
-                        <h5 class="fw-bold">Name</h5>
-                        <p>X Order is good for X persons.</p>
-                    </div>
-                </div>
-                <div class="col-4 text-center">
-                    <img src="#" class="img-fluid border border-1 border-dark" id="DishIMG">
-                    <div class="text-center mt-2" id="NameDesc">
-                        <h5 class="fw-bold">Name</h5>
-                        <p>X Order is good for X persons.</p>
-                    </div>
-                </div>
-                <div class="col-4 text-center">
-                    <img src="#" class="img-fluid border border-1 border-dark" id="DishIMG">
-                    <div class="text-center mt-2" id="NameDesc">
-                        <h5 class="fw-bold">Name</h5>
-                        <p>X Order is good for X persons.</p>
-                    </div>
-                </div>
-                <div class="col-4 text-center">
-                    <img src="#" class="img-fluid border border-1 border-dark" id="DishIMG">
-                    <div class="text-center mt-2" id="NameDesc">
-                        <h5 class="fw-bold">Name</h5>
-                        <p>X Order is good for X persons.</p>
-                    </div>
-                </div>
-                <div class="col-4 text-center">
-                    <img src="#" class="img-fluid border border-1 border-dark" id="DishIMG">
-                    <div class="text-center mt-2" id="NameDesc">
-                        <h5 class="fw-bold">Name</h5>
-                        <p>X Order is good for X persons.</p>
-                    </div>
-                </div>
-                <div class="col-4 text-center">
-                    <img src="#" class="img-fluid border border-1 border-dark" id="DishIMG">
-                    <div class="text-center mt-2" id="NameDesc">
-                        <h5 class="fw-bold">Name</h5>
-                        <p>X Order is good for X persons.</p>
-                    </div>
-                </div>
-                <div class="col-4 text-center">
-                    <img src="#" class="img-fluid border border-1 border-dark" id="DishIMG">
-                    <div class="text-center mt-2" id="NameDesc">
-                        <h5 class="fw-bold">Name</h5>
-                        <p>X Order is good for X persons.</p>
-                    </div>
-                </div>
-                <div class="col-4 text-center">
-                    <img src="#" class="img-fluid border border-1 border-dark" id="DishIMG">
-                    <div class="text-center mt-2" id="NameDesc">
-                        <h5 class="fw-bold">Name</h5>
-                        <p>X Order is good for X persons.</p>
-                    </div>
-                </div>
+                    }
+                }
             </div>
         </div>
         
@@ -100,13 +58,25 @@
                 <div class="col align-self-center" id="spacer"><hr class="border border-2 border-dark" style="opacity: 1"></div>
             </div>
             <div class="row">
-                <div class="col-4 text-center">
-                    <img src="#" class="img-fluid border border-1 border-dark" id="DishIMG">
-                    <div class="text-center mt-2" id="NameDesc">
-                        <h5 class="fw-bold">Name</h5>
-                        <p>X Order is good for X persons.</p>
+                @foreach(var MDish in Model)
+                {
+                    @if (MDish.DishCategory=="Appetizer")
+                    {
+                     <div class="col-3 p-1 mx-0 text-center">
+                        <img src="~/images/@MDish.FoodImgUrl" 
+                            class="img-fluid border border-1 border-dark" id="DishIMG"/>
+                        <div class="text-center bg-dark text-light" id="NameDesc">
+                            <h5 class="fw-bold py-2
+                            border border-left border-right border-bottom border-1 border-dark">
+                                @Html.DisplayFor(modelMDish => MDish.DishName)<br>
+                                Good for
+                                @Html.DisplayFor(modelMDish => MDish.AmtPerOrder)
+                                person per order
+                            </h5>
+                        </div>
                     </div>
-                </div>
+                    }
+                }
             </div>
         </div>
 
@@ -118,13 +88,25 @@
                 <div class="col align-self-center" id="spacer"><hr class="border border-2 border-dark" style="opacity: 1"></div>
             </div>
             <div class="row">
-                <div class="col-4 text-center">
-                    <img src="#" class="img-fluid border border-1 border-dark" id="DishIMG">
-                    <div class="text-center mt-2" id="NameDesc">
-                        <h5 class="fw-bold">Name</h5>
-                        <p>X Order is good for X persons.</p>
+                @foreach(var MDish in Model)
+                {
+                    @if (MDish.DishCategory=="Dessert")
+                    {
+                     <div class="col-3 p-1 mx-0 text-center">
+                        <img src="~/images/@MDish.FoodImgUrl" 
+                            class="img-fluid border border-1 border-dark" id="DishIMG"/>
+                        <div class="text-center bg-dark text-light" id="NameDesc">
+                            <h5 class="fw-bold py-2
+                            border border-left border-right border-bottom border-1 border-dark">
+                                @Html.DisplayFor(modelMDish => MDish.DishName)<br>
+                                Good for
+                                @Html.DisplayFor(modelMDish => MDish.AmtPerOrder)
+                                person per order
+                            </h5>
+                        </div>
                     </div>
-                </div>
+                    }
+                }
             </div>
         </div>
 
@@ -136,13 +118,25 @@
                 <div class="col align-self-center" id="spacer"><hr class="border border-2 border-dark" style="opacity: 1"></div>
             </div>
             <div class="row">
-                <div class="col-4 text-center">
-                    <img src="#" class="img-fluid border border-1 border-dark" id="DishIMG">
-                    <div class="text-center mt-2" id="NameDesc">
-                        <h5 class="fw-bold">Name</h5>
-                        <p>X Order is good for X persons.</p>
+                @foreach(var MDish in Model)
+                {
+                    @if (MDish.DishCategory=="Drinks")
+                    {
+                     <div class="col-3 p-1 mx-0 text-center">
+                        <img src="~/images/@MDish.FoodImgUrl" 
+                            class="img-fluid border border-1 border-dark" id="DishIMG"/>
+                        <div class="text-center bg-dark text-light" id="NameDesc">
+                            <h5 class="fw-bold py-2
+                            border border-left border-right border-bottom border-1 border-dark">
+                                @Html.DisplayFor(modelMDish => MDish.DishName)<br>
+                                Good for
+                                @Html.DisplayFor(modelMDish => MDish.AmtPerOrder)
+                                person per order
+                            </h5>
+                        </div>
                     </div>
-                </div>
+                    }
+                }
             </div>
         </div>
 

@@ -57,16 +57,16 @@ body{
     padding-bottom: 5px;
 }
 #Appetizer {
-    background-image: url(../images/Atchara.jpg);
+    background-image: url(../MainImages/Atchara.jpg);
 }
 #Main_Dish {
-    background-image: url(../images/Adobo.jpg);
+    background-image: url(../MainImages/Adobo.jpg);
 }
 #Dessert {
-    background-image: url(../images/Halohalo.jpg);
+    background-image: url(../MainImages/Halohalo.jpg);
 }
 #Drinks {
-    background-image: url(../images/BukoJuice.jpg);
+    background-image: url(../MainImages/BukoJuice.jpg);
 }
 #Menu{
     background-color: #B08330;

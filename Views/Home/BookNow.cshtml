@@ -1,8 +1,8 @@
-﻿@model IEnumerable<Paluto_Kay_Juan.Models.MenuItemsClass>
+﻿@model IEnumerable<Paluto_Kay_Juan.Models.AdminModel>
 
 @{
-    ViewData["Title"] = "BookNow";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Booking";
+    Layout = "_MainLayout";
 }
 
 <h1>BookNow</h1>
@@ -17,7 +17,7 @@
                 @Html.DisplayNameFor(model => model.Id)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Category)
+                @Html.DisplayNameFor(model => model.DishCategory)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.DishName)
@@ -35,13 +35,16 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Id)
+                @item.Id
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Category)
+                <img src="~/images/@item.FoodImgUrl" style="width:100px;height:100px"/>
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.DishName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DishCategory)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.AmtPerOrder)
@@ -50,9 +53,9 @@
                 @Html.DisplayFor(modelItem => item.Price)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* insert shit here */ }) |
-                @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-                @Html.ActionLink("Delete", "Delete", new { /* insert shit here */ })
+                <a asp-route-id="@item.Id">Edit</a> |
+                <a asp-route-id="@item.Id">Details</a> |
+                <a asp-route-id="@item.Id">Delete</a>
             </td>
         </tr>
 }
