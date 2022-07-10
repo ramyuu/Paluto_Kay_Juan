@@ -23,13 +23,116 @@
             </ul>
 
             <div class="col-md-3 text-end">
-                <a href="/Menu/Index" class="btn btn-light me-2">Login</a>
+                <button type="button" class="btn btn-light me-2" data-bs-toggle="modal" data-bs-target="#RegisterModal">Register</button>
+                <button type="button" class="btn btn-light me-2" data-bs-toggle="modal" data-bs-target="#LoginModal">Login</button>
             </div>
         </header>
     </div>
 
     <div>
         <main role="main" class="pb-3">
+            <div class="modal fade" id="LoginModal" data-bs-backdrop="static">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-light">Login</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form asp-action="#" id="">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                    <div class="col-12 mb-1">
+                                        <div class="form-group">
+                                            <label class="control-label">Username</label>
+                                            <input class="form-control" placeholder="Enter your username"/>
+                                            <span  class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mb-1">
+                                        <div class="form-group">
+                                            <label class="control-label">Password</label>
+                                            <input class="form-control" type="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;"/> <!--remove type password later-->
+                                            <span  class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <a class="me-auto text-decoration-none" data-bs-target="#RegisterModal" data-bs-toggle="modal" data-bs-dismiss="modal">Create Account</a>
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                <a href="/Menu/Index" class="btn btn-success me-2">Login</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="modal fade" id="RegisterModal" data-bs-backdrop="static">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-light">Register</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form asp-action="#" id="">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                    <div class="col-12 mb-1">
+                                        <div class="form-group">
+                                            <label class="control-label">Username</label>
+                                            <input class="form-control" placeholder="Enter your username"/>
+                                            <span  class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-1">
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <label class="control-label">First Name</label>
+                                                <input class="form-control" placeholder="Juan"/>
+                                                <span  class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <label class="control-label">Last Name</label>
+                                                <input class="form-control" placeholder="Dela Cruz"/>
+                                                <span  class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mb-1">
+                                        <div class="form-group">
+                                            <label class="control-label">Email Address</label>
+                                            <input class="form-control" placeholder="Enter your email address" type="email"/>
+                                            <span  class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-1">
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label class="control-label">Password</label>
+                                                <input class="form-control" type="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;"/> <!--remove type password later-->
+                                                <span  class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label class="control-label">Confirm Password</label>
+                                                <input class="form-control" type="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;"/> <!--remove type password later-->
+                                                <span  class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <a class="me-auto text-decoration-none" data-bs-target="#LoginModal" data-bs-toggle="modal" data-bs-dismiss="modal">Already have an account?</a>
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                <a href="#" class="btn btn-success me-2">Register</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
             @RenderBody()
         </main>
     </div>
@@ -82,5 +185,7 @@
     </div>
             </footer>
         </div>
+
+
 </body>
 </html>

@@ -40,7 +40,6 @@ namespace Paluto_Kay_Juan.Controllers
 
             ViewData["PriceSortParam"] = sortOrder == "Price" ? "PriceSort" : "PriceSort";
 
-
             switch (sortOrder)
             {
                 case "NameSort":
