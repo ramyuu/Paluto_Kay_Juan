@@ -33,8 +33,21 @@ namespace Paluto_Kay_Juan.Controllers
             adminModels = _context.Menus.ToList();
             return View(adminModels);
         }
+
+        [HttpGet]
         public IActionResult ContactUs()
         {
+            ContactUsModel contactUsModel = new ContactUsModel();
+            return View(contactUsModel);
+        }
+
+        [HttpPost]
+        public IActionResult ContactUs(ContactUsModel contactUsModel)
+        {
+            _context.Add(contactUsModel);
+            _context.Entry(contactUsModel).State = EntityState.Added;
+            _context.SaveChanges();
+            ViewData["ContactFlag"] = "Message Sent Successfully!";
             return View();
         }
 

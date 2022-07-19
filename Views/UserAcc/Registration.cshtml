@@ -1,0 +1,104 @@
+﻿@model Paluto_Kay_Juan.Models.UsersModel
+
+@{
+    ViewData["Title"] = "Registration";
+    Layout = "_MainLayout";
+}
+<div class="d-flex my-4" id="MenuHeader">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col" id="MenuText">
+                        <h1 class="text-light fw-bold"><i>USER REGISTRATION</i></h1>
+                    </div>
+                    <div class="col-10" id="spacer"></div>
+                </div>
+            </div>
+</div>
+<div class="container" style="min-height:600px ;max-height:700px;padding-top:80px">
+    <div class="row d-flex justify-content-center">
+        <div class="col-6">
+            <form asp-action="Registration" id="RegForm">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="row pb-1">
+                    <div class="col">
+                        <div class="form-group">
+                            <label asp-for="FName" class="control-label"></label>
+                            <input asp-for="FName" class="form-control" required />
+                            <span asp-validation-for="FName" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label asp-for="LName" class="control-label"></label>
+                            <input asp-for="LName" class="form-control" required />
+                            <span asp-validation-for="LName" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-group pb-1">
+                    <label asp-for="Username" class="control-label"></label>
+                    <input asp-for="Username" class="form-control" required />
+                    <span asp-validation-for="Username" class="text-danger"></span>
+                </div>
+
+                <div class="row pb-1">
+                    <div class="col">
+                        <div class="form-group">
+                            <label asp-for="Email" class="control-label"></label>
+                            <input asp-for="Email" class="form-control" required />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label asp-for="ContactNum" class="control-label"></label>
+                            <input asp-for="ContactNum" class="form-control" required />
+                            <span asp-validation-for="ContactNum" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pb-1">
+                    <div class="col">
+                        <div class="form-group">
+                            <label asp-for="Password" class="control-label"></label>
+                            <input asp-for="Password" class="form-control" required />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label asp-for="CPassword" class="control-label"></label>
+                            <input asp-for="CPassword" class="form-control" required />
+                            <span asp-validation-for="CPassword" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-2">
+                    <div class="col my-auto">
+                        <a href="../UserAcc/Login" class="text-decoration-none">Already have an account?</a>
+                    </div>
+                    <div class="col" name="spacer"></div>
+                    <div class="col text-end">
+                        <a href="#" onclick="history.go(-1)" class="btn btn-danger">Cancel</a>
+                        <input type="submit" value="Register" class="btn btn-success" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script type="text/javascript">
+        function rebindvalidators(){
+            var $form = $("#RegForm");
+            $form.unbind();
+            $form.data("validator",null);
+            $.validator.unobtrusive.parse($form);
+            $form.validate($form.data("unobtrusiveValidation").options);
+        }
+    </script>
+}

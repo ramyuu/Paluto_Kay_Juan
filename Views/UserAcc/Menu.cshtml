@@ -1,0 +1,145 @@
+﻿@model IEnumerable<Paluto_Kay_Juan.Models.AdminModel>
+
+@{
+    ViewData["Title"] = "Menu";
+    Layout = "_AccLayout";
+}
+
+<html>
+    <body>
+        <div class="d-flex flex-column">
+        <!-- MENU HEADER START-->
+        <div class="d-flex my-4" id="MenuHeader">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col" id="MenuText">
+                        <h1 class="text-light fw-bold"><i>MENU</i></h1>
+                    </div>
+                    <div class="col-10" id="spacer"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MAIN DISHES START -->
+        <div class="container py-3" id="MainDishes">
+            <div class="row pb-3">
+                <div class="col align-self-center" id="spacer"><hr class="border border-2 border-dark" style="opacity: 1"></div>
+                <div class="col-2 text-center"><h1>Main Dish</h1></div>
+                <div class="col align-self-center" id="spacer"><hr class="border border-2 border-dark" style="opacity: 1"></div>
+            </div>
+            <div class="row">
+                @foreach(var MDish in Model)
+                {
+                    @if (MDish.DishCategory=="Main")
+                    {
+                     <div class="col-3 p-1 mx-0 text-center">
+                        <img src="~/images/@MDish.FoodImgUrl" 
+                            class="img-fluid border border-1 border-dark" id="DishIMG"/>
+                        <div class="text-center bg-dark text-light" id="NameDesc">
+                            <h5 class="fw-bold py-2
+                            border border-left border-right border-bottom border-1 border-dark">
+                                @Html.DisplayFor(modelMDish => MDish.DishName)<br>
+                                Good for
+                                @Html.DisplayFor(modelMDish => MDish.AmtPerOrder)
+                                person per order
+                            </h5>
+                        </div>
+                    </div>
+                    }
+                }
+            </div>
+        </div>
+        
+        <!-- APPETIZERS START -->
+        <div class="container py-3" id="Appetizers">
+            <div class="row pb-3">
+                <div class="col align-self-center" id="spacer"><hr class="border border-2 border-dark" style="opacity: 1"></div>
+                <div class="col-2 text-center"><h1>Appetizers</h1></div>
+                <div class="col align-self-center" id="spacer"><hr class="border border-2 border-dark" style="opacity: 1"></div>
+            </div>
+            <div class="row">
+                @foreach(var MDish in Model)
+                {
+                    @if (MDish.DishCategory=="Appetizer")
+                    {
+                     <div class="col-3 p-1 mx-0 text-center">
+                        <img src="~/images/@MDish.FoodImgUrl" 
+                            class="img-fluid border border-1 border-dark" id="DishIMG"/>
+                        <div class="text-center bg-dark text-light" id="NameDesc">
+                            <h5 class="fw-bold py-2
+                            border border-left border-right border-bottom border-1 border-dark">
+                                @Html.DisplayFor(modelMDish => MDish.DishName)<br>
+                                Good for
+                                @Html.DisplayFor(modelMDish => MDish.AmtPerOrder)
+                                person per order
+                            </h5>
+                        </div>
+                    </div>
+                    }
+                }
+            </div>
+        </div>
+
+        <!-- DESSERTS START -->
+        <div class="container py-3" id="Desserts">
+            <div class="row pb-3">
+                <div class="col align-self-center" id="spacer"><hr class="border border-2 border-dark" style="opacity: 1"></div>
+                <div class="col-2 text-center"><h1>Desserts</h1></div>
+                <div class="col align-self-center" id="spacer"><hr class="border border-2 border-dark" style="opacity: 1"></div>
+            </div>
+            <div class="row">
+                @foreach(var MDish in Model)
+                {
+                    @if (MDish.DishCategory=="Dessert")
+                    {
+                     <div class="col-3 p-1 mx-0 text-center">
+                        <img src="~/images/@MDish.FoodImgUrl" 
+                            class="img-fluid border border-1 border-dark" id="DishIMG"/>
+                        <div class="text-center bg-dark text-light" id="NameDesc">
+                            <h5 class="fw-bold py-2
+                            border border-left border-right border-bottom border-1 border-dark">
+                                @Html.DisplayFor(modelMDish => MDish.DishName)<br>
+                                Good for
+                                @Html.DisplayFor(modelMDish => MDish.AmtPerOrder)
+                                person per order
+                            </h5>
+                        </div>
+                    </div>
+                    }
+                }
+            </div>
+        </div>
+
+        <!-- DRINKS START -->
+        <div class="container py-3" id="Drink">
+            <div class="row pb-3">
+                <div class="col align-self-center" id="spacer"><hr class="border border-2 border-dark" style="opacity: 1"></div>
+                <div class="col-2 text-center"><h1>Drinks</h1></div>
+                <div class="col align-self-center" id="spacer"><hr class="border border-2 border-dark" style="opacity: 1"></div>
+            </div>
+            <div class="row">
+                @foreach(var MDish in Model)
+                {
+                    @if (MDish.DishCategory=="Drinks")
+                    {
+                     <div class="col-3 p-1 mx-0 text-center">
+                        <img src="~/images/@MDish.FoodImgUrl" 
+                            class="img-fluid border border-1 border-dark" id="DishIMG"/>
+                        <div class="text-center bg-dark text-light" id="NameDesc">
+                            <h5 class="fw-bold py-2
+                            border border-left border-right border-bottom border-1 border-dark">
+                                @Html.DisplayFor(modelMDish => MDish.DishName)<br>
+                                Good for
+                                @Html.DisplayFor(modelMDish => MDish.AmtPerOrder)
+                                person per order
+                            </h5>
+                        </div>
+                    </div>
+                    }
+                }
+            </div>
+        </div>
+
+        </div>
+    </body>
+</html>

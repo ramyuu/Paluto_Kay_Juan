@@ -40,6 +40,7 @@ namespace Paluto_Kay_Juan.Controllers
 
             ViewData["PriceSortParam"] = sortOrder == "Price" ? "PriceSort" : "PriceSort";
 
+
             switch (sortOrder)
             {
                 case "NameSort":
@@ -205,6 +206,13 @@ namespace Paluto_Kay_Juan.Controllers
             return selCategory;
         }
 
-        
+        public IActionResult ContactUsMsg()
+        {
+            List<ContactUsModel> msgModels;
+            msgModels = _context.Contact.ToList();
+            return View(msgModels);
+        }
+
+
     }
 }
