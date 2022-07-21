@@ -1,15 +1,15 @@
 ﻿@model IEnumerable<Paluto_Kay_Juan.Models.ContactUsModel>
 
 @{
-    ViewData["Title"] = "ContactUsMsg";
+    ViewData["Title"] = "Messages";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h1>Contact Us Messages</h1>
 
-<table class="table">
-    <thead>
-        <tr>
+<table class="table table-bordered border-dark text-center">
+    <thead class="table-dark">
+        <tr class="text-center">
             <th>
                 @Html.DisplayNameFor(model => model.FName)
             </th>
@@ -24,18 +24,18 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
-        <tr>
-            <td>
+        <tr class="text-center">
+            <td class="align-middle">
                 @Html.DisplayFor(modelItem => item.FName)
             </td>
-            <td>
+            <td class="align-middle">
                 @Html.DisplayFor(modelItem => item.Email)
             </td>
-            <td>
+            <td class="align-middle">
                 @Html.DisplayFor(modelItem => item.Message)
             </td>
-            <td>
-                <a asp-action="Details" asp-route-id="@item.MsgID">Details</a>
+            <td class="align-middle">
+                <a asp-action="MsgDetails" asp-route-id="@item.MsgID" class="btn btn-secondary">Details</a>
             </td>
         </tr>
 }

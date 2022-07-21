@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d+ksR0WxQK8Q0M2iItRWAMjBu48Wgpv1PWEi1d/xRdI=",
+  "Hash": "ijMxLM7+hs2ivoMMJxsO186Bmx+2g871ovwjuxhAnEE=",
   "Source": "Paluto_Kay_Juan",
   "BasePath": "_content/Paluto_Kay_Juan",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Paluto_Kay_Juan\\wwwroot",
       "Source": "Paluto_Kay_Juan",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Paluto_Kay_Juan.styles.css",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Paluto_Kay_Juan.styles.css",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "Paluto_Kay_Juan.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Paluto_Kay_Juan.styles.css"
+      "OriginalItemSpec": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Paluto_Kay_Juan.styles.css"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Paluto_Kay_Juan.bundle.scp.css",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Paluto_Kay_Juan.bundle.scp.css",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "Paluto_Kay_Juan.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Paluto_Kay_Juan.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Paluto_Kay_Juan.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\css\\site.css",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\css\\Styles.css",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\css\\Styles.css",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "css/Styles.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Styles.css"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\favicon.ico",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\images\\06a50376-9f3f-4bba-b179-664cb7c6deb4-halohalo.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\images\\06a50376-9f3f-4bba-b179-664cb7c6deb4-halohalo.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "images/06a50376-9f3f-4bba-b179-664cb7c6deb4-halohalo.jpg",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06a50376-9f3f-4bba-b179-664cb7c6deb4-halohalo.jpg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\images\\2898b775-7b7c-4f17-8222-a790c35938af-Black-Gulaman.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\images\\2898b775-7b7c-4f17-8222-a790c35938af-Black-Gulaman.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "images/2898b775-7b7c-4f17-8222-a790c35938af-Black-Gulaman.jpg",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\images\\2898b775-7b7c-4f17-8222-a790c35938af-Black-Gulaman.jpg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\images\\346770d7-3fd1-48d4-b9e2-a14c34e4020a-Chicharon.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\images\\346770d7-3fd1-48d4-b9e2-a14c34e4020a-Chicharon.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "images/346770d7-3fd1-48d4-b9e2-a14c34e4020a-Chicharon.jpg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\images\\346770d7-3fd1-48d4-b9e2-a14c34e4020a-Chicharon.jpg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\images\\432b3adc-8909-42cf-aafd-6113d3ee9a74-Menudo.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\images\\432b3adc-8909-42cf-aafd-6113d3ee9a74-Menudo.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "images/432b3adc-8909-42cf-aafd-6113d3ee9a74-Menudo.jpg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\images\\432b3adc-8909-42cf-aafd-6113d3ee9a74-Menudo.jpg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\images\\447db185-0e8e-4ff8-b0d9-c3585bd9f84b-BicolExpress.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\images\\447db185-0e8e-4ff8-b0d9-c3585bd9f84b-BicolExpress.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "images/447db185-0e8e-4ff8-b0d9-c3585bd9f84b-BicolExpress.jpg",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\images\\447db185-0e8e-4ff8-b0d9-c3585bd9f84b-BicolExpress.jpg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\images\\44d51827-bd6f-4bfc-804f-d4126366fb55-BukoJuice.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\images\\44d51827-bd6f-4bfc-804f-d4126366fb55-BukoJuice.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "images/44d51827-bd6f-4bfc-804f-d4126366fb55-BukoJuice.jpg",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\images\\44d51827-bd6f-4bfc-804f-d4126366fb55-BukoJuice.jpg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\images\\472ec6bb-a762-4fe7-a8f1-685484f80b94-Sinigang.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\images\\472ec6bb-a762-4fe7-a8f1-685484f80b94-Sinigang.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "images/472ec6bb-a762-4fe7-a8f1-685484f80b94-Sinigang.jpg",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\images\\472ec6bb-a762-4fe7-a8f1-685484f80b94-Sinigang.jpg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\images\\749be8e7-d796-41c7-8a66-7de0e80c97e9-Dynamite.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\images\\749be8e7-d796-41c7-8a66-7de0e80c97e9-Dynamite.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "images/749be8e7-d796-41c7-8a66-7de0e80c97e9-Dynamite.jpg",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\images\\749be8e7-d796-41c7-8a66-7de0e80c97e9-Dynamite.jpg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\images\\81e2c897-d588-4a4f-b150-f811738d3aeb-Calamares.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\images\\81e2c897-d588-4a4f-b150-f811738d3aeb-Calamares.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "images/81e2c897-d588-4a4f-b150-f811738d3aeb-Calamares.jpg",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\images\\81e2c897-d588-4a4f-b150-f811738d3aeb-Calamares.jpg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\images\\82214294-0f81-4ecf-9202-0545d3fe67ac-blue-lemonade.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\images\\82214294-0f81-4ecf-9202-0545d3fe67ac-blue-lemonade.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "images/82214294-0f81-4ecf-9202-0545d3fe67ac-blue-lemonade.jpg",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\images\\82214294-0f81-4ecf-9202-0545d3fe67ac-blue-lemonade.jpg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\images\\991b7eef-2455-4abe-ac5e-61d53c794eea-ginataang bilo bilo.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\images\\991b7eef-2455-4abe-ac5e-61d53c794eea-ginataang bilo bilo.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "images/991b7eef-2455-4abe-ac5e-61d53c794eea-ginataang bilo bilo.jpg",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\images\\991b7eef-2455-4abe-ac5e-61d53c794eea-ginataang bilo bilo.jpg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\images\\9d1e5aea-760d-4cf2-b29a-e041d834de15-rice.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\images\\9d1e5aea-760d-4cf2-b29a-e041d834de15-rice.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "images/9d1e5aea-760d-4cf2-b29a-e041d834de15-rice.jpg",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\images\\9d1e5aea-760d-4cf2-b29a-e041d834de15-rice.jpg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\images\\a0b9c559-1967-4664-96d5-3e87006c3e9e-Atchara.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\images\\a0b9c559-1967-4664-96d5-3e87006c3e9e-Atchara.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "images/a0b9c559-1967-4664-96d5-3e87006c3e9e-Atchara.jpg",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\images\\a0b9c559-1967-4664-96d5-3e87006c3e9e-Atchara.jpg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\images\\b7d304d2-90d9-4e82-a13c-b573670f2bed-pichi pichi.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\images\\b7d304d2-90d9-4e82-a13c-b573670f2bed-pichi pichi.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "images/b7d304d2-90d9-4e82-a13c-b573670f2bed-pichi pichi.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\b7d304d2-90d9-4e82-a13c-b573670f2bed-pichi pichi.jpg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\images\\b83cc7f7-a32d-4727-8470-7b55cb7a4be9-mais con yelo.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\images\\b83cc7f7-a32d-4727-8470-7b55cb7a4be9-mais con yelo.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "images/b83cc7f7-a32d-4727-8470-7b55cb7a4be9-mais con yelo.jpg",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\images\\b83cc7f7-a32d-4727-8470-7b55cb7a4be9-mais con yelo.jpg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\images\\bacb2668-8c26-4c04-968d-a63ccfa6850f-KareKare.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\images\\bacb2668-8c26-4c04-968d-a63ccfa6850f-KareKare.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "images/bacb2668-8c26-4c04-968d-a63ccfa6850f-KareKare.jpg",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bacb2668-8c26-4c04-968d-a63ccfa6850f-KareKare.jpg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\images\\c2a40a17-033b-4dff-a5d3-b4185b7d8de7-Adobo.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\images\\c2a40a17-033b-4dff-a5d3-b4185b7d8de7-Adobo.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "images/c2a40a17-033b-4dff-a5d3-b4185b7d8de7-Adobo.jpg",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\images\\c2a40a17-033b-4dff-a5d3-b4185b7d8de7-Adobo.jpg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\images\\c644e26b-85fe-42b1-bce7-9659a7746b8c-Shanghai.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\images\\c644e26b-85fe-42b1-bce7-9659a7746b8c-Shanghai.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "images/c644e26b-85fe-42b1-bce7-9659a7746b8c-Shanghai.jpg",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\images\\c644e26b-85fe-42b1-bce7-9659a7746b8c-Shanghai.jpg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\images\\ca415943-7764-475a-acf8-f74f037390bc-leche flan.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\images\\ca415943-7764-475a-acf8-f74f037390bc-leche flan.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "images/ca415943-7764-475a-acf8-f74f037390bc-leche flan.jpg",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ca415943-7764-475a-acf8-f74f037390bc-leche flan.jpg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\images\\d8ab60e0-e507-4dce-90d3-18ae14ab3639-softdrinks.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\images\\d8ab60e0-e507-4dce-90d3-18ae14ab3639-softdrinks.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "images/d8ab60e0-e507-4dce-90d3-18ae14ab3639-softdrinks.jpg",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\images\\d8ab60e0-e507-4dce-90d3-18ae14ab3639-softdrinks.jpg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\images\\e640e278-2337-47c1-944f-309aa62303a4-bottled water.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\images\\e640e278-2337-47c1-944f-309aa62303a4-bottled water.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "images/e640e278-2337-47c1-944f-309aa62303a4-bottled water.jpg",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\images\\e640e278-2337-47c1-944f-309aa62303a4-bottled water.jpg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\js\\site.js",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\MainImages\\Adobo.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\MainImages\\Adobo.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "MainImages/Adobo.jpg",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\MainImages\\Adobo.jpg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\MainImages\\Atchara.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\MainImages\\Atchara.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "MainImages/Atchara.jpg",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\MainImages\\Atchara.jpg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\MainImages\\BukoJuice.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\MainImages\\BukoJuice.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "MainImages/BukoJuice.jpg",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\MainImages\\BukoJuice.jpg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\MainImages\\CateringOnly.jpeg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\MainImages\\CateringOnly.jpeg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "MainImages/CateringOnly.jpeg",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\MainImages\\CateringOnly.jpeg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\MainImages\\Halohalo.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\MainImages\\Halohalo.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "MainImages/Halohalo.jpg",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\MainImages\\Halohalo.jpg"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\MainImages\\LogoImage.png",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\MainImages\\LogoImage.png",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "MainImages/LogoImage.png",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\MainImages\\LogoImage.png"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\MainImages\\PKJ_Logo-3.png",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\MainImages\\PKJ_Logo-3.png",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "MainImages/PKJ_Logo-3.png",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\MainImages\\PKJ_Logo-3.png"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\MainImages\\PKJ_Logo-4.png",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\MainImages\\PKJ_Logo-4.png",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "MainImages/PKJ_Logo-4.png",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\MainImages\\PKJ_Logo-4.png"
     },
     {
-      "Identity": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\MainImages\\VenueOnly.jpg",
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\MainImages\\VenueOnly.jpg",
       "SourceId": "Paluto_Kay_Juan",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
       "BasePath": "_content/Paluto_Kay_Juan",
       "RelativePath": "MainImages/VenueOnly.jpg",
       "AssetKind": "All",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\Paluto_Kay_Juan.csproj": {}
+    "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\Paluto_Kay_Juan.csproj": {}
   },
   "projects": {
-    "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\Paluto_Kay_Juan.csproj": {
+    "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\Paluto_Kay_Juan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\Paluto_Kay_Juan.csproj",
+        "projectUniqueName": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\Paluto_Kay_Juan.csproj",
         "projectName": "Paluto_Kay_Juan",
-        "projectPath": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\Paluto_Kay_Juan.csproj",
+        "projectPath": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\Paluto_Kay_Juan.csproj",
         "packagesPath": "C:\\Users\\point\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\obj\\",
+        "outputPath": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -18,28 +18,28 @@
                         <div class="col-12 mb-1">
                             <div class="form-group">
                                 <label asp-for="DishName" class="control-label fw-bold">Dish Name</label>
-                                <input asp-for="DishName" class="form-control-plaintext" readonly/>
+                                <p class="form-control-readonly mt-1">@Html.DisplayFor(model => model.DishName)</p>
                             </div>
                         </div>
 
                         <div class="col-12 mb-1">
                             <div class="form-group">
                                 <label asp-for="DishCategory" class="control-label fw-bold">Dish Category</label>
-                                <input asp-for="DishCategory" class="form-control-plaintext" readonly/>
+                                <p class="form-control-readonly mt-1">@Html.DisplayFor(model => model.DishCategory)</p>
                             </div>
                         </div>
 
                         <div class="col-12 mb-1">
                             <div class="form-group">
                                 <label asp-for="AmtPerOrder" class="control-label fw-bold">Amount Per Order</label>
-                                <input asp-for="AmtPerOrder" class="form-control-plaintext" readonly/>
+                                <p class="form-control-readonly mt-1">@Html.DisplayFor(model => model.AmtPerOrder)</p>
                             </div>
                         </div>
 
                         <div class="col-12 mb-1">
                             <div class="form-group">
                                 <label asp-for="Price" class="control-label fw-bold">Price Per Order</label>
-                                <input asp-for="Price" class="form-control-plaintext" readonly/>
+                                <p class="form-control-readonly mt-1">@Html.DisplayFor(model => model.Price)</p>
                             </div>
                         </div>
                      </div>

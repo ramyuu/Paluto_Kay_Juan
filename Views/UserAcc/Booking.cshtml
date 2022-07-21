@@ -1,0 +1,342 @@
+﻿@model Paluto_Kay_Juan.Models.OrdersModel
+
+@{
+    ViewData["Title"] = "Home";
+    Layout = "_MainLayout";
+}
+
+@{
+   IEnumerable<AdminModel> foodItems = ViewData["FoodItems"] as IEnumerable<AdminModel>;
+}
+
+<div class="d-flex my-4" id="MenuHeader">
+    <div class="container">
+        <div class="row py-3">
+            <div class="col" id="MenuText">
+                <h1 class="text-light fw-bold"><i>Booking</i></h1>
+            </div>
+            <div class="col-10" id="spacer"></div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <form asp-action="Booking" id="OrderForm">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="row">
+        <div class="row">
+            <div class="col" id="spacer"></div>
+            <div class="col-4 mb-1">
+                <div class="form-group">
+                    <label asp-for="CustomerName" class="control-label">Full Name</label>
+                    <input asp-for="CustomerName" class="form-control" placeholder="Juan Dela Cruz"/>
+                    <span asp-validation-for="CustomerName" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-4 mb-1">
+                <div class="form-group">
+                    <label asp-for="CustomerContact" class="control-label">Contact Number</label>
+                    <input asp-for="CustomerContact" class="form-control" placeholder="0912-345-6789"/>
+                    <span asp-validation-for="CustomerContact" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col" id="spacer"></div>
+        </div>
+        <div class="row">
+            <div class="col" id="spacer"></div>
+            <div class="col-4 mb-1">
+                <div class="form-group">
+                    <label asp-for="VenueLocation" class="control-label"></label>
+                    <input asp-for="VenueLocation" class="form-control" value="PKJ Facility"/>
+                    <small class="form-text text-muted">Leave Empty for PKJ Facility or <br /> Enter Address for other venue location</small>
+                    <span asp-validation-for="VenueLocation" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-4 mb-1">
+                <div class="form-group">
+                    <label asp-for="CateringDate" class="control-label"></label>
+                    <input asp-for="CateringDate" class="form-control" type="date" />
+                    <span asp-validation-for="CateringDate" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col" id="spacer"></div>
+        </div>
+    </div>
+        <hr />
+        <div class="row mb-1 text-center">
+            <h3>Main Dish</h3>
+        </div>
+        <table class="table table-bordered border-dark text-center">
+            <thead class="table-dark">
+                <tr>
+                    <th>
+                        Image
+                    </th>
+                    <th>
+                        Dish Name
+                    </th>
+                    <th>
+                        Amount Per Order
+                    </th>
+                    <th>
+                        Price Per Order
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(AdminModel adminModel in foodItems)
+                {
+                    if (adminModel.DishCategory == "Main")
+                    {
+                        <tr>
+                            <td class="align-middle">
+                                <img src="~/images/@adminModel.FoodImgUrl" style="width:100px;height:100px"/>
+                            </td>
+                            <td class="align-middle">
+                                @adminModel.DishName
+                            </td>
+                            <td class="align-middle">
+                                Good for @adminModel.AmtPerOrder persons
+                            </td>
+                            <td class="align-middle">
+                                @adminModel.Price
+                            </td>
+                        </tr>        
+                    }
+                
+                }
+                <thead class="table-dark">
+                <tr>
+                    <th colspan="5">
+                        Order for Main Dish
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="5" style="padding:2% 10%">
+                        <span asp-validation-for="MainDishOrder" class="text-danger"></span>
+                        @Html.TextAreaFor(model=>model.MainDishOrder, new { @class = "form-control", @rows="7", @style="resize:none", @value="",@placeholder="Insert [Quantity] - Food Name to order." })
+                        <small class="form-text text-muted">Example Order: 3 - Rice, 2 - Adobong Manok</small>
+                    </td>
+                </tr>
+            </tbody>
+        
+        </tbody>
+        </table>
+
+        <hr />
+        <div class="row mb-1 text-center">
+            <h3>Appetizers</h3>
+        </div>
+        <table class="table table-bordered border-dark text-center">
+            <thead class="table-dark">
+                <tr>
+                    <th>
+                        Image
+                    </th>
+                    <th>
+                        Dish Name
+                    </th>
+                    <th>
+                        Amount Per Order
+                    </th>
+                    <th>
+                        Price Per Order
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(AdminModel adminModel in foodItems)
+                {
+                    if (adminModel.DishCategory == "Appetizer")
+                    {
+                        <tr>
+                            <td class="align-middle">
+                                <img src="~/images/@adminModel.FoodImgUrl" style="width:100px;height:100px"/>
+                            </td>
+                            <td class="align-middle">
+                                @adminModel.DishName
+                            </td>
+                            <td class="align-middle">
+                                Good for @adminModel.AmtPerOrder Persons
+                            </td>
+                            <td class="align-middle">
+                                @adminModel.Price
+                            </td>
+                        </tr>        
+                    }
+                
+                }
+                <thead class="table-dark">
+                <tr>
+                    <th colspan="5">
+                        Order for Appetizers
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="5" style="padding:2% 10%">
+                        <span asp-validation-for="AppetizersOrder" class="text-danger"></span>
+                        @Html.TextAreaFor(model=>model.AppetizersOrder, new { @class = "form-control", @rows="7", @style="resize:none", @value="",@placeholder="Insert [Quantity] - Food Name to order." })
+                        <small class="form-text text-muted">Example Order: 5 - Lumpiang Shanghai, 1 - Chicharon</small>
+                        
+                    </td>
+                </tr>
+            </tbody>
+        
+        </tbody>
+        </table>
+
+         <hr />
+        <div class="row mb-1 text-center">
+            <h3>Desserts</h3>
+        </div>
+        <table class="table table-bordered border-dark text-center">
+            <thead class="table-dark">
+                <tr>
+                    <th>
+                        Image
+                    </th>
+                    <th>
+                        Dish Name
+                    </th>
+                    <th>
+                        Amount Per Order
+                    </th>
+                    <th>
+                        Price Per Order
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(AdminModel adminModel in foodItems)
+                {
+                    if (adminModel.DishCategory == "Dessert")
+                    {
+                        <tr>
+                            <td class="align-middle">
+                                <img src="~/images/@adminModel.FoodImgUrl" style="width:100px;height:100px"/>
+                            </td>
+                            <td class="align-middle">
+                                @adminModel.DishName
+                            </td>
+                            <td class="align-middle">
+                                Good for @adminModel.AmtPerOrder Persons
+                            </td>
+                            <td class="align-middle">
+                                @adminModel.Price
+                            </td>
+                        </tr>        
+                    }
+                
+                }
+                <thead class="table-dark">
+                <tr>
+                    <th colspan="5">
+                        Order for Desserts
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="5" style="padding:2% 10%">
+                        <span asp-validation-for="DessertOrder" class="text-danger"></span>
+                        @Html.TextAreaFor(model=>model.DessertOrder, new { @class = "form-control", @rows="7", @style="resize:none", @value="",@placeholder="Insert [Quantity] - Food Name to order." })
+                        <small class="form-text text-muted">Example Order: 2 - Halo Halo, 2 - Leche Flan</small>
+                    </td>
+                </tr>
+            </tbody>
+        
+        </tbody>
+        </table>
+
+         <hr />
+        <div class="row mb-1 text-center">
+            <h3>Drinks</h3>
+        </div>
+        <table class="table table-bordered border-dark text-center">
+            <thead class="table-dark">
+                <tr>
+                    <th>
+                        Image
+                    </th>
+                    <th>
+                        Dish Name
+                    </th>
+                    <th>
+                        Amount Per Order
+                    </th>
+                    <th>
+                        Price Per Order
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(AdminModel adminModel in foodItems)
+                {
+                    if (adminModel.DishCategory == "Drinks")
+                    {
+                        <tr>
+                            <td class="align-middle">
+                                <img src="~/images/@adminModel.FoodImgUrl" style="width:100px;height:100px"/>
+                            </td>
+                            <td class="align-middle">
+                                @adminModel.DishName
+                            </td>
+                            <td class="align-middle">
+                                Good for @adminModel.AmtPerOrder Persons
+                            </td>
+                            <td class="align-middle">
+                                @adminModel.Price
+                            </td>
+                        </tr>        
+                    }
+                
+                }
+                <thead class="table-dark">
+                <tr>
+                    <th colspan="5">
+                        Order for Drinks
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="5" style="padding:2% 10%">
+                        <span asp-validation-for="DrinksOrder" class="text-danger"></span>
+                        @Html.TextAreaFor(model=>model.DrinksOrder, new { @class = "form-control", @rows="7", @style="resize:none", @value="",@placeholder="Insert [Quantity] - Food Name to order." })
+                        <small class="form-text text-muted">Example Order: 5 - Blue Lemonade, 2 - Bottled Water</small>
+                    </td>
+                </tr>
+            </tbody>
+        
+        </tbody>
+        </table>
+        <div class="form-group text-center">
+            <button class="btn btn-danger mx-3" type="reset">Cancel</button>
+            <button class="btn btn-success mx-3" type="submit" id="submitBtn">Place Order</button>
+        </div>
+</form>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script type="text/javascript">
+        function rebindvalidators(){
+            var $form = $("#OrderForm");
+            $form.unbind();
+            $form.data("validator",null);
+            $.validator.unobtrusive.parse($form);
+            $form.validate($form.data("unobtrusiveValidation").options);
+        }
+
+        $(document).ready(function() {
+                $('#submitBtn').click(function() {
+                    alert('Booking Successful!'+'\n'+'Please send your payment at: -insert credit card-'+'\n'+'Or at our GCash number: -insert gcash number-');
+                });
+        });
+    </script>
+}

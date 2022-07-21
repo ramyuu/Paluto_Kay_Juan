@@ -14,14 +14,14 @@ namespace Paluto_Kay_Juan.Models
         public string Username { get; set; }
 
         [Required(ErrorMessage = "The Password field is required.")]
-        [StringLength(16, ErrorMessage = "Invalid Password! Maximum of 16 Characters Only!")]
+        [StringLength(16, MinimumLength = 8, ErrorMessage = "Invalid Password! Must be between 8 and 16 Characters Only!")]
         [DataType(DataType.Password)]
         [DisplayName("Password")]
         public string Password { get; set; }
 
         [Required(ErrorMessage = "The Confirm Password field is required.")]
         [Compare("Password", ErrorMessage = "Password and Confirmation Password must match.")]
-        [StringLength(16, ErrorMessage = "Invalid Password! Maximum of 16 Characters Only!")]
+        [StringLength(16, MinimumLength = 8, ErrorMessage = "Invalid Password! Must be between 8 and 16 Characters Only!")]
         [DataType(DataType.Password)]
         [DisplayName("Confirm Password")]
         public string CPassword { get; set; }
@@ -33,7 +33,7 @@ namespace Paluto_Kay_Juan.Models
         public string Email { get; set; }
 
         [Required(ErrorMessage = "The Contact Number field is required.")]
-        [StringLength(11, ErrorMessage = "Invalid Contact Number!")]
+        [StringLength(11, MinimumLength = 11, ErrorMessage = "Invalid Contact Number!")]
         [DataType(DataType.PhoneNumber)]
         [DisplayName("Contact Number")]
         public string ContactNum { get; set; }

@@ -3,6 +3,7 @@ using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Paluto_Kay_Juan.Data;
 using Paluto_Kay_Juan.Models;
+using System.Dynamic;
 
 namespace Paluto_Kay_Juan.Controllers
 {
@@ -108,5 +109,23 @@ namespace Paluto_Kay_Juan.Controllers
             adminModels = _context.Menus.ToList();
             return View(adminModels);
         }
+
+
+        [HttpGet]
+        public IActionResult Booking()
+        {
+            ViewData["FoodItems"] = _context.Menus;
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Booking(OrdersModel ordersModel)
+        {
+            _context.Add(ordersModel);
+            _context.Entry(ordersModel).State = EntityState.Added;
+            _context.SaveChanges();
+            return RedirectToAction("Index", "Home");
+        }
+
     }
 }

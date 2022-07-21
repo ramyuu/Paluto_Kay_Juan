@@ -1,0 +1,135 @@
+﻿@model Paluto_Kay_Juan.Models.OrdersModel
+
+@{
+    ViewData["Title"] = "Edit Order Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit Order Details</h1>
+
+<hr />
+<div class="container">
+    <form asp-action="EditOrder" id="EditOrderForm">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <div class="col">
+                     <div class="row">
+
+                         <div class="col-3 mb-1">
+                            <div class="form-group">
+                                <label asp-for="OrderId" class="control-label fw-bold">Order Id</label>
+                                <input asp-for="OrderId" class="form-control-plaintext" readonly/>
+                            </div>
+                        </div>
+
+                        <div class="col-3 mb-1">
+                            <div class="form-group">
+                                <label asp-for="CustomerName" class="control-label fw-bold">Full Name</label>
+                                <input asp-for="CustomerName" class="form-control-plaintext" readonly/>
+                            </div>
+                        </div>
+
+                        <div class="col-3 mb-1">
+                            <div class="form-group">
+                                <label asp-for="CustomerContact" class="control-label fw-bold">Contact Number</label>
+                                <input asp-for="CustomerContact" class="form-control-plaintext" readonly/>
+                            </div>
+                        </div>
+
+                        <div class="col-3 mb-1" id="spacer"></div>
+
+                        <div class="col-3 mb-1">
+                            <div class="form-group">
+                                <label asp-for="OrderDate" class="control-label fw-bold">Date Ordered</label>
+                                <input asp-for="OrderDate" class="form-control-plaintext" readonly/>
+                            </div>
+                        </div>
+                        
+                        <div class="col-3 mb-1">
+                            <div class="form-group">
+                                <label asp-for="CateringDate" class="control-label fw-bold">Catering Date</label>
+                                <input asp-for="CateringDate" class="form-control-plaintext" readonly/>
+                            </div>
+                        </div>
+
+                        <div class="col-6 mb-1">
+                            <div class="form-group">
+                                <label asp-for="VenueLocation" class="control-label fw-bold">Venue Location</label>
+                                <input asp-for="VenueLocation" class="form-control-plaintext" readonly/>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="col-12 mb-1">
+                            <div class="form-group">
+                                <label asp-for="MainDishOrder" class="control-label fw-bold">Main Dish Orders</label>
+                                <input asp-for="MainDishOrder" class="form-control-plaintext" readonly/>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="col-12 mb-1">
+                            <div class="form-group">
+                                <label asp-for="AppetizersOrder" class="control-label fw-bold">Appetizers Orders</label>
+                                <input asp-for="AppetizersOrder" class="form-control-plaintext" readonly/>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="col-12 mb-1">
+                            <div class="form-group">
+                                <label asp-for="DessertOrder" class="control-label fw-bold">Desserts Orders</label>
+                                <input asp-for="DessertOrder" class="form-control-plaintext" readonly/>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="col-12 mb-1">
+                            <div class="form-group">
+                                <label asp-for="DrinksOrder" class="control-label fw-bold">Drinks Orders</label>
+                                <input asp-for="DrinksOrder" class="form-control-plaintext" readonly/>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="col-3 mb-1">
+                            <div class="form-group">
+                                <label asp-for="Total" class="control-label">Total</label>
+                                <input asp-for="Total" class="form-control"/>
+                                <span asp-validation-for="Total" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-3 mb-1">
+                            <div class="form-group">
+                                <label asp-for="PaymentStatus" class="control-label">Payment Status</label>
+                                <input asp-for="PaymentStatus" class="form-control"/>
+                                <span asp-validation-for="PaymentStatus" class="text-danger"></span>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col">
+                    <div class="form-group my-3">
+                        <input type="submit" value="Save Changes" class="btn btn-success" />
+                        <a asp-action="OrdersList" class="btn btn-outline-secondary">Back to List</a>
+                    </div>
+                </div>
+
+            </div>
+    </form>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script type="text/javascript">
+
+        function rebindvalidators(){
+            var $form = $("#EditOrderForm");
+            $form.unbind();
+            $form.data("validator",null);
+            $.validator.unobtrusive.parse($form);
+            $form.validate($form.data("unobtrusiveValidation").options);
+        }
+
+    </script>
+}

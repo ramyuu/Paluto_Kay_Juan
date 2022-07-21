@@ -212,7 +212,62 @@ namespace Paluto_Kay_Juan.Controllers
             msgModels = _context.Contact.ToList();
             return View(msgModels);
         }
+        public IActionResult MsgDetails(int Id)
+        {
+            ContactUsModel msgModels = _context.Contact.Where(m => m.MsgID == Id).FirstOrDefault();
+            return View(msgModels);
+        }
 
+        public IActionResult OrdersList()
+        {
+            List<OrdersModel> ordersModels;
+            ordersModels = _context.Orders.ToList();
+            return View(ordersModels);
+        }
 
+        public IActionResult OrderDetails(int Id)
+        {
+            OrdersModel ordersModel = _context.Orders.Where(m => m.OrderId == Id).FirstOrDefault();
+            return View(ordersModel);
+        }
+
+        [HttpGet]
+        public IActionResult EditOrder(int Id)
+        {
+            OrdersModel ordersModel = _context.Orders.Where(m => m.OrderId == Id).FirstOrDefault();
+            return View(ordersModel);
+        }
+
+        [HttpPost]
+        public IActionResult EditOrder(OrdersModel ordersModel)
+        {
+            _context.Attach(ordersModel);
+            _context.Entry(ordersModel).State = EntityState.Modified;
+            _context.SaveChanges();
+            return RedirectToAction("OrdersList");
+        }
+
+        public IActionResult SearchOrder()
+        {
+            List<OrdersModel> ordersModels;
+            ordersModels = _context.Orders.ToList();
+            return View(ordersModels);   
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SearchOrder(string searchKeyword)
+        {
+            ViewBag.ShowList = false;
+            if (!string.IsNullOrEmpty(searchKeyword))
+            {
+                ViewBag.ShowList = true;
+                return View(await _context.Orders.Where(order => order.CustomerName == searchKeyword || order.CustomerContact == searchKeyword).ToListAsync());
+            }
+            else
+            {
+                return RedirectToAction("SearchOrder");
+            }
+            
+        }
     }
 }

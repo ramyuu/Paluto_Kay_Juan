@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H3c3bvowiiTVZgfU2sQGiLf5Ds4SPSGZ+ARnVx6ppLi05BFJ7J7rblq9KbOy6o+F4R1wzxJpK2DoFHzjziBdmA==",
+  "dgSpecHash": "s4RE4+CVncn9gPUANQjxDxol3vwEt7cRszDaIpp1JE0roRVKl+gsuSiYg0TnwqmaY3iydcDwa5eBWchL9CFy7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\point\\Desktop\\New folder (5)\\Paluto_Kay_Juan-da45dd35a6f7662ca0657ea82f1ea3135d9724d6\\Paluto_Kay_Juan.csproj",
+  "projectFilePath": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\Paluto_Kay_Juan.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\point\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\point\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

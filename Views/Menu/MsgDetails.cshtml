@@ -1,0 +1,55 @@
+﻿@model Paluto_Kay_Juan.Models.ContactUsModel
+
+@{
+    ViewData["Title"] = "Msg Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Viewing Message Details</h1>
+
+<hr />
+<div class="container">
+    <form asp-action="MsgDetails">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <div class="col">
+                     <div class="row">
+
+                        <div class="col-4 mb-1">
+                            <div class="form-group">
+                                <label asp-for="FName" class="control-label fw-bold">Full Name</label>
+                                <input asp-for="FName" class="form-control-plaintext" readonly/>
+                            </div>
+                        </div>
+
+                        <div class="col-4 mb-1">
+                            <div class="form-group">
+                                <label asp-for="Email" class="control-label fw-bold">EmailAddress</label>
+                                <input asp-for="Email" class="form-control-plaintext" readonly/>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-1" id="spacer"></div>
+                        <hr />
+                        <div class="col-12 mb-1">
+                            <div class="form-group">
+                                <label asp-for="Message" class="control-label fw-bold">Message</label>
+                                <input asp-for="Message" class="form-control-plaintext" readonly/>
+                            </div>
+                        </div>
+                        <hr />
+                     </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col">
+                    <div class="form-group my-3">
+                        <a asp-action="ContactUsMsg" class="btn btn-primary">Back to List</a>
+                    </div>
+                </div>
+
+            </div>
+    </form>
+</div>

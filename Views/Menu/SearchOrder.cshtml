@@ -1,0 +1,114 @@
+﻿@model IEnumerable<Paluto_Kay_Juan.Models.OrdersModel>
+
+@{
+    ViewData["Title"] = "SearchOrder";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+        <div class="d-flex my-4 " id="ContactHeader">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col" id="ContactText">
+                        <h1 class="text-light fw-bold"><i>CONTACT US</i></h1>
+                    </div>
+                    <div class="col" id="spacer"></div>
+                </div>
+            </div>
+        </div>
+
+
+<div class="container" style="min-height:300px">
+    <div class="row">
+        <div class="col-4 pb-3">
+            <form asp-action="SearchOrder" id="SearchForm">
+                <div class="input-group">
+                    <input type="search" name="searchKeyword" id="searchBar" class="form-control" placeholder="Enter Name or Contact Number" aria-label="Search" aria-describedby="search-addon" />
+                    <button type="submit" class="btn btn-outline-secondary" id="searchBtn">search</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <table class="table table-bordered border-dark text-center" id="TableHidden">
+        <thead class="table-dark">
+            <tr class="text-center">
+                <th>
+                    @Html.DisplayNameFor(model => model.CustomerName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CustomerContact)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PaymentStatus)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.VenueLocation)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CateringDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Total)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.OrderDate)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+    @if(ViewBag.ShowList==true)
+        {
+            @foreach (var item in Model) {
+                    var x = item.CateringDate;
+                    DateTime date = DateTime.Parse(x);
+                    <tr class="text-center">
+                <td class="align-middle">
+                    @Html.DisplayFor(modelItem => item.CustomerName)
+                </td>
+                <td class="align-middle">
+                    @Html.DisplayFor(modelItem => item.CustomerContact)
+                </td>
+                <td class="align-middle">
+                    @Html.DisplayFor(modelItem => item.PaymentStatus)
+                </td>
+                <td class="align-middle">
+                    @Html.DisplayFor(modelItem => item.VenueLocation)
+                </td>
+                <td class="align-middle">
+                    <span>@date.Month-@date.Day-@date.Year</span>
+                </td>
+                <td class="align-middle">
+                    @Html.DisplayFor(modelItem => item.Total)
+                </td>
+                <td class="align-middle">
+                    @Html.DisplayFor(modelItem => item.OrderDate)
+                </td>
+            </tr>
+            }    
+        }
+            
+        </tbody>
+    </table>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script type="text/javascript">
+
+        function rebindvalidators(){
+            var $form = $("#SearchForm");
+            $form.unbind();
+            $form.data("validator",null);
+            $.validator.unobtrusive.parse($form);
+            $form.validate($form.data("unobtrusiveValidation").options);
+        }
+
+        $(document).ready(function() {
+                $('#searchBtn').click(function() {
+                    if (!$('#searchBar').val()) {
+                        alert('Enter your name or contact number!');
+                    }
+                });
+        });
+    </script>
+}
