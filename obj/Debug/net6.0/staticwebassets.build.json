@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ijMxLM7+hs2ivoMMJxsO186Bmx+2g871ovwjuxhAnEE=",
+  "Hash": "t/fhIzeXIleWcSZnKSuxR6TYob+vx3AAiZb1ZL+2Cfk=",
   "Source": "Paluto_Kay_Juan",
   "BasePath": "_content/Paluto_Kay_Juan",
   "Mode": "Default",
@@ -202,6 +202,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\44d51827-bd6f-4bfc-804f-d4126366fb55-BukoJuice.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\images\\45aa7412-c30f-4f6c-92e7-e1342bd303b5-Bulalo-Recipe-Panlasang-Pinoy.jpg",
+      "SourceId": "Paluto_Kay_Juan",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\",
+      "BasePath": "_content/Paluto_Kay_Juan",
+      "RelativePath": "images/45aa7412-c30f-4f6c-92e7-e1342bd303b5-Bulalo-Recipe-Panlasang-Pinoy.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\45aa7412-c30f-4f6c-92e7-e1342bd303b5-Bulalo-Recipe-Panlasang-Pinoy.jpg"
     },
     {
       "Identity": "C:\\Users\\point\\Desktop\\Paluto_Kay_Juan\\wwwroot\\images\\472ec6bb-a762-4fe7-a8f1-685484f80b94-Sinigang.jpg",
